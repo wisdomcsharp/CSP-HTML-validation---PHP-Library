@@ -7,7 +7,7 @@ This is a PHP library which helps prevents CSFR attacks by removing event trigge
 
 `use libs\security\script;`
 
-`require_one 'script.php'`
+`require_once 'script.php'`
 
 
 
