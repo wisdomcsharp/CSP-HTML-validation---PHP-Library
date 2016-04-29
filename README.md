@@ -20,7 +20,7 @@
 
 
 ### Adding CSP headers
-#### This code should be editted and included in your `.htaccess` file please visit [content security policy](http://content-security-policy.com/) for more information
+#### This code should be editted and included in your `.htaccess` file please visit [content security policy](http://content-security-policy.com/) / [CSP - From Google](https://developer.chrome.com/extensions/contentSecurityPolicy) for more information
 
 
 <ifModule mod_headers.c> 
