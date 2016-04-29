@@ -1,5 +1,6 @@
 #CSP & HTML validation - PHP Library
-###This is a PHP library which helps prevents CSFR attacks by removing event triggers, and script tags from HTMLDocuments
+###This is a PHP library which helps prevents XSS attacks by validating and encoding various link types, removing event triggers, inline scripts, and with modern CSP header settings, is used to proivde an advanced solution for HTML & CSS validation.
+
 #####The purpose of this project, is to develop a universal library, which could be used to validate and sanitise HTML outputs, to eliminate security risks such as Global XSS attacks. This script should be used, where the target user is not protected (using OS versions such as android, upto v4.4, or other vulnerable browsers) 
 
 #####This script, should be used in conjuction with CSP headers. The headers that we have used in our servers will be listed below, and should be used in your servers too.
