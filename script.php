@@ -35,10 +35,8 @@ namespace {
                     if(strtolower($node ->tagName) == 'form'){//remove form posting?
                         $node -> removeAttribute('action');
                     }
-                    if( substr(strtolower($attributeName), 0, 6) =='action' ||
-                        substr(strtolower($attributeName), 0, 10) =='formaction'){ //remove forms submitions 
+                    if(substr(strtolower($attributeName), 0, 10) =='formaction'){ //remove forms submitions 
                         $node->removeAttribute ( $attributeName);
-
                     }
                     if( substr(strtolower($attributeName), 0, 4) == 'href' || //add action to this list to validate instead of remove
                         substr(strtolower($attributeName), 0, 3) == 'src' ||
